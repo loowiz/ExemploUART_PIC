@@ -66,7 +66,7 @@ void main(void){
 	LimpaLCD();             // Limpa Display
 	Inicializa_Serial();    // Inicializa módulo serial
     
-    TRISB = 0b00000011;     // Port B, sa?das do RB2 at? RB7
+    TRISB = 0b00000011;     // Port B, saídas do RB2 até RB7
     // -------------------------------------------------
 	
 
@@ -74,7 +74,7 @@ void main(void){
 	// Recursos ativados uma única vez na inicialização
 	// -------------------------------------------------	
 	PosicionaLCD(1,1);
-	StringLCD("   SENAI  118   ");
+	StringLCD("   T E S T E    ");
 	PosicionaLCD(2,1);
 	StringLCD("Serial: ");
 	// -------------------------------------------------	
